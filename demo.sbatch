@@ -9,6 +9,7 @@
 #SBATCH --mem-per-cpu=1000
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=maryclaregri@umass.edu
+#SBATCH --array=1-8
 
 cd home/mgriffin/Documents/Research/Demo/Code/
 module load R/4.2.0
